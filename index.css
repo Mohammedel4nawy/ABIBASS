@@ -1,0 +1,117 @@
+a {
+  width: 100%;
+  height: 800px;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(146, 29, 236),
+    rgb(62, 124, 205),
+    rgb(119, 200, 232)
+  );
+  overflow: hidden;
+}
+div {
+  background-image: initial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  word-spacing: 4px;
+  border-radius: 50px;
+  font-size: 30px;
+  animation-name: pos;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.a {
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition-duration: 2s;
+}
+.b {
+  animation-delay: 0.3s;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.c {
+  animation-delay: 0.6s;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-delay: 0.9s;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-delay: 01.2s;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.f {
+  animation-delay: 01.5s;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.g {
+  animation-delay: 01.8s;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes change {
+  0% {
+    color: rgb(180, 113, 232);
+  }
+  33.3% {
+    color: rgb(87, 146, 223);
+  }
+  66.6% {
+    color: rgb(76, 178, 219);
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes pos {
+  0% {
+    position: absolute;
+    left: 1%;
+  }
+  50% {
+    position: absolute;
+    left: 70%;
+  }
+  100% {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+a {
+  text-decoration: none;
+}
